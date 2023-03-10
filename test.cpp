@@ -6,8 +6,8 @@ int main()
 {
     srand(clock());
     freopen("out","w",stdout);
-    printf("100\n");
-    for(int i=1;i<=100;i++)
+    printf("1000000\n");
+    for(int i=1;i<=1000000;i++)
     {
         int a=rand();
         while(a<-1*inf||a>inf)
